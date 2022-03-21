@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
-// import { Routes1 } from "./Components/Routes";
+import { Sx } from "./Components/Routes";
 import { Routes,Route } from "react-router-dom";
 
 function App() {
