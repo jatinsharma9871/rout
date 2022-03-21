@@ -3,14 +3,6 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export const ProductsPage = () => {
-  const [list,setList]= useState([]);
-  console.log(list)
- useEffect(()=>{
- axios.get("http://localhost:3004/products").then((res)=>{
-  setList(res.data)
-  console.log(list) 
- })
- },[])
   return (
     <>
       <div
@@ -27,7 +19,7 @@ export const ProductsPage = () => {
         <h4>Price</h4>
         <h4>Details</h4>
       </div>
-      {list.map((el) => {
+      {[].map((el) => {
         return (
           <div
             className="container"
