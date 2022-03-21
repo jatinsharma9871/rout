@@ -3,7 +3,7 @@ import { Routes,Route } from "react-router-dom";
 import { HomePage } from "./HomePage";
 import { ProductsPage } from "./ProductsPage";
 import { ProductsDetailsPage } from "./ProductsDetailsPage";
-export const Sx = () => {
+export const Routes1 = () => {
   return (
     <>
       <Navbar />
